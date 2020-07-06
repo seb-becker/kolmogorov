@@ -40,5 +40,5 @@ u_reference = u / tf.cast(mc_rounds_ref, tf.float32)
 
 kolmogorov_train_and_test(xi, x_sde, phi, u_reference, neurons,
                           lr_boundaries, lr_values, train_steps,
-                          mc_rounds, mc_freq, 'example3_2.csv', dtype)
+                          mc_rounds, mc_freq, 'example_geometric_brownian_motions.csv', dtype)
 
