@@ -67,6 +67,6 @@ u_reference = u / tf.cast(mc_rounds_ref, tf.float32)
 
 kolmogorov_train_and_test(xi, tf.squeeze(x_sde, axis=0), phi, u_reference,
                           neurons, lr_boundaries, lr_values, train_steps,
-                          mc_rounds, mc_freq, 'example3_4.csv', dtype)
+                          mc_rounds, mc_freq, 'example_stochastic_lorenz_equation.csv', dtype)
 
 
