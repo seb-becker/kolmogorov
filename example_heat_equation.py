@@ -25,4 +25,4 @@ u_reference = phi(xi) + 2. * T * d
 
 kolmogorov_train_and_test(xi, x_sde, phi, u_reference, neurons,
                           lr_boundaries, lr_values, train_steps,
-                          mc_rounds, mc_freq, 'example3_1.csv', dtype)
+                          mc_rounds, mc_freq, 'example_heat_equation.csv', dtype)
